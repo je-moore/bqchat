@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+body {
+  overflow: hidden;
+}
+
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr;
+  height: 100vh;
+}
+
+#chat-list {
+  padding: 1rem 0 0;
+  background-color: #f4f4f9;
+  min-width: 181px;
+}
+
+#chat-window {
+  padding: 14px 0 0 24px;
+  width: 315px;
+}
+
+li.message-item {
+}
+
